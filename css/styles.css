@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/* common */
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic","游ゴシック", YuGothic, "游ゴシック体", sans-serif;
+  font-weight: normal;
+  font-size: 1.4rem;
+  color: #ffffff;
+  line-height: 2.0;
+  background-color: #0089A7;
+}
+
+table {
+  margin: 80px auto;
+  padding: 10px 40px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+
+tfoot {
+  background-color: #ffffff;
+  color: #0D5661;
+}
+
+th,
+td {
+  padding: 10px 20px;
+}
