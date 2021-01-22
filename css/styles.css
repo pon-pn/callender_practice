@@ -30,9 +30,33 @@ table {
 tfoot {
   background-color: #ffffff;
   color: #0D5661;
+  font-weight: bold;
 }
 
 th,
 td {
   padding: 10px 20px;
+}
+
+tbody td:first-child {
+  color: red;
+}
+
+tbody td:last-child {
+  color: blue;
+}
+
+td.disabled {
+  opacity: .3;
+}
+
+td.today {
+  font-weight: bold;
+}
+
+#prev,
+#next,
+#today {
+  cursor: pointer;
+  user-select: none;
 }

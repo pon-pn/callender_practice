@@ -12,9 +12,9 @@
     <table>
       <thead>
         <tr>
-          <th>&lt;</th>
+          <th id="prev">&lt;</th>
           <th colspan="5">2021年1月</th>
-          <th>&gt;</th>
+          <th id="next">&gt;</th>
         </tr>
         <tr>
           <th>日</th>
@@ -29,9 +29,9 @@
       <tbody>
 
         <tr>
-          <td>1</td>
-          <td>2</td>
-          <td>3</td>
+          <td class="disabled">1</td>
+          <td class="disabled">2</td>
+          <td class="disabled">3</td>
           <td>4</td>
           <td>5</td>
           <td>6</td>
@@ -41,7 +41,7 @@
         <tr>
           <td>1</td>
           <td>2</td>
-          <td>3</td>
+          <td class="today">3</td>
           <td>4</td>
           <td>5</td>
           <td>6</td>
@@ -64,14 +64,14 @@
           <td>3</td>
           <td>4</td>
           <td>5</td>
-          <td>6</td>
-          <td>7</td>
+          <td class="disabled">6</td>
+          <td class="disabled">7</td>
         </tr>
 
       </tbody>
       <tfoot>
         <tr>
-          <td colspan="7">今日</td>
+          <td colspan="7" id="today">今日</td>
         </tr>
       </tfoot>
     </table>
